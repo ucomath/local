@@ -19,7 +19,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: 'local'      # upload generated folder
+          path: '.assets'      # upload generated folder
   
   deploy:
     needs: pages-directory-listing
