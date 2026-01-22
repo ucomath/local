@@ -9,7 +9,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          ref: gh-pages   #checkout different branch
+          ref: main   #checkout different branch
 
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@v4.0.0
@@ -19,7 +19,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: ./docs/      # upload generated folder
+          path: docs      # upload generated folder
   
   deploy:
     needs: pages-directory-listing
