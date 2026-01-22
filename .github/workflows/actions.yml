@@ -7,7 +7,7 @@ description: GitHub Action to generate `index.html` files for directory listings
 inputs:
   target:
     description: Path to the target directory
-    default: local
+    default: .
   ignore:
     description: |
       Patterns for ignoring files or directories can be separated by commas or new lines.
