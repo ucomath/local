@@ -1,0 +1,3 @@
+- name: Directory Listing
+
+  uses: gacts/directory-listing@v1.0.3
