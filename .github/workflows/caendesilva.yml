@@ -37,5 +37,6 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
   deploy:
+  runs-on: ubuntu-latest
     environment:
       name: github-pages
