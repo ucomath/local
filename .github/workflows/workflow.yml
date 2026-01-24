@@ -31,6 +31,7 @@ inputs:
       ex. `node_modules, **/*.log`
     required: false
     paths: '.github/**'
+      - 'README.md'
   showHiddenFiles:
     description: 'Show hidden files in the directory listing.'
     required: false
