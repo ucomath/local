@@ -1,0 +1,4 @@
+- name: Generate Directory listing
+  uses: yKicchan/generate-directory-listing-action@v1
+  with:
+    target: local
