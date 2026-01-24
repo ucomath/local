@@ -2,14 +2,6 @@ name: 'Generate Directory Listing Action'
 description: 'Generate index.html files for directory listing.'
 author: 'yKicchan'
 
-on:
-  push:
-    branches:
-      - master
-    paths-ignore:
-      - '.gitignore'
-      - '.github/**'
-
 runs:
   using: 'node20'
   main: 'dist/index.js'
