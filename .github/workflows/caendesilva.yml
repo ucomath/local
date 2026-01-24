@@ -26,6 +26,7 @@ inputs:
       Multiple patterns can be separated by commas.
       ex. `node_modules, **/*.log`
     required: false
+    default: '.*'
   showHiddenFiles:
     description: 'Show hidden files in the directory listing.'
     required: false
