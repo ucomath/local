@@ -30,7 +30,7 @@ inputs:
       Multiple patterns can be separated by commas.
       ex. `node_modules, **/*.log`
     required: false
-    paths: ~/.github/**
+    paths: '.github/**'
   showHiddenFiles:
     description: 'Show hidden files in the directory listing.'
     required: false
