@@ -27,18 +27,18 @@ inputs:
       View type of the directory listing.
       Available options: `table`, `list`.
     required: false
-    default: 'list'
+    default: list
   ignore:
     description: |
       Pattern to ignore files or directories.
       Multiple patterns can be separated by commas.
       ex. `node_modules, **/*.log`
     required: false
-    paths: '.github/**'
+    paths: ~/.github/**
   showHiddenFiles:
     description: 'Show hidden files in the directory listing.'
     required: false
-    default: 'false'
+    default: false
   theme:
     description: |
       Path to a custom CSS file for styling.
@@ -47,4 +47,4 @@ inputs:
   override:
     description: 'Override existing index.html files.'
     required: false
-    default: 'false'
+    default: true
