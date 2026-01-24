@@ -15,14 +15,14 @@ inputs:
       View type of the directory listing.
       Available options: `table`, `list`.
     required: false
-    default: 'table'
+    default: 'list'
   ignore:
     description: |
       Pattern to ignore files or directories.
       Multiple patterns can be separated by commas.
       ex. `node_modules, **/*.log`
     required: false
-    default: '.*'
+    paths: '.github/**'
   showHiddenFiles:
     description: 'Show hidden files in the directory listing.'
     required: false
